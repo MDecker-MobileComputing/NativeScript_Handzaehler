@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.HandzaehlerTemplateBlank',
+  id: 'de.mide.nativescript.handzaehler',
   appPath: 'src',
   appResourcesPath: 'App_Resources',
   android: {
