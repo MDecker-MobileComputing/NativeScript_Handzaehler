@@ -4,13 +4,13 @@
 
 <StackLayout>
 
-  <Button text="Plus" tap="onPlusButton()"></Button>
+  <Button text="Plus" (tap)="onPlusButton()"></Button>
 
   <label horizontalAlignment="center"
          fontAttributes="Bold"
          fontSize="35">{{zaehlerwert}}</label>
 
-  <Button text="Minus" tap="onMinusButton()"></Button>
+  <Button text="Minus" (tap)="onMinusButton()"></Button>
   <Button text="Zurücksetzen"></Button>
 
 </StackLayout>
