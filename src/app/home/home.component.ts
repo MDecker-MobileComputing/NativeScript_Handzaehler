@@ -10,6 +10,7 @@ export class HomeComponent {
   public zaehlerwert = 0;
 
   constructor() {
+
     console.log("Konstruktor wurde aufgerufen.");
   }
 
@@ -29,6 +30,15 @@ export class HomeComponent {
 
     this.zaehlerwert--;
     console.log(`Zähler-Wert nach Minus: ${this.zaehlerwert}`);
+  }
+
+    /**
+   * Event-Handler-Methode für Reset-Button.
+   */
+  public onResetButton() { 
+
+    this.zaehlerwert = 0;
+    console.log("Zähler wurde auf 0 zurückgesetzt.");
   }
 
 }
